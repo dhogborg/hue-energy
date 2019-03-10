@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "target": "es5",
+    "lib": ["es6", "dom"],
+
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}

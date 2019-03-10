@@ -1,0 +1,21 @@
+{
+  "name": "hue-energy",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc -p .",
+    "run": "node ."
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@types/node-fetch": "^2.1.4",
+    "momentjs": "^2.0.0",
+    "node-fetch": "^2.3.0",
+    "node-hue-api": "^2.4.4"
+  },
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/node-hue-api": "^2.3.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
+}
